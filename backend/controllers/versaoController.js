@@ -39,7 +39,7 @@ exports.createVersao = async (req, res) => {
     console.error('Erro ao criar nova versão: ', error);
     res.status(500).json({ error: 'Erro ao criar versão' });
   }
-}
+};
 
 // Atualizar versão
 exports.updateVersao = async (req, res) => {
