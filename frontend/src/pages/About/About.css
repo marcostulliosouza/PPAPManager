@@ -1,0 +1,29 @@
+/* src/pages/About.css */
+.about {
+  padding: 2rem;
+  text-align: center;
+}
+
+.about h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.about p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.contact-button {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.contact-button:hover {
+  background-color: #218838;
+}
